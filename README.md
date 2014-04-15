@@ -12,6 +12,4 @@ var opts = {
 dirtyproxy(opts, function(req, proxy){
 console.log(req);
 proxy(req.headers.hostname);
-}
-
-
+});
