@@ -1,0 +1,15 @@
+{
+  "name": "dirtyproxy",
+  "version": "0.1.0",
+  "description": "A Man-in-the-middle HTTPS proxy in node that generates certs on the fly.",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "~0.3.5",
+    "bouncy": "~3.2.1"
+  }
+}
